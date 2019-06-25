@@ -43,7 +43,7 @@ RUN { \
 	&& a2enconf filerun
 
 # Download FileRun installation package
-RUN curl -o /filerun.zip -L https://filerun.com/download-latest-php72 \
+RUN curl -o /filerun.zip -L https://f.afian.se/wl/?id=wdWeBfuONR8d4jvFDRZjGdNOceAvrShN&recipient=d3d3Lmdvb2dsZS5mcg%3D%3D \
  && mkdir /user-files \
  && chown www-data:www-data /user-files
 
